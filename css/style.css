@@ -1,34 +1,36 @@
 /* common style */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul,ol{
+ul,
+ol {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
 }
 
-.container{
+.container {
     width: 1140px;
     margin: 0 auto;
 }
 
 /* Navbar style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 45px 0;
 }
 
-nav h3{
+nav h3 {
     font-size: 28px;
     font-weight: 800;
 }
@@ -40,14 +42,14 @@ nav a {
     color: #0D1321;
 }
 
-nav button{
+nav button {
     border: 1px solid #1e1e1e;
     border-radius: 5px;
     background-color: #fff;
 }
 
 /* banner style */
-.banner{
+.banner {
     background-image: url('../images/Hero-bg.png');
     height: 652px;
     background-position: center;
@@ -57,26 +59,26 @@ nav button{
     padding-top: 35px;
 }
 
-.banner_content img{
+.banner_content img {
     height: 240px;
     width: 240px;
 }
 
-.banner_content h1{
+.banner_content h1 {
     font-size: 48px;
     font-weight: 800;
     color: #0D1321;
     margin: 30px 200px 20px;
 }
 
-.banner_content p{
+.banner_content p {
     font-size: 16px;
     font-weight: 400;
     color: #0D1321;
     margin: 0 250px;
 }
 
-.banner_content button{
+.banner_content button {
     background-color: #0D1321;
     padding: 20px;
     border-radius: 8px;
@@ -84,11 +86,91 @@ nav button{
 }
 
 
-.banner_content a{
+.banner_content a {
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
 }
 
+/* web development part */
+.common_header{
+    text-align: center;
+    margin: 0px 50px 40px;
+}
+
+.common_header h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.common_header p{
+    font-size: 16px;
+    color: #0D1321;
+}
 
 
+.development{
+    padding: 80px;
+    background-color: #f6f8fd;
+    margin-top: 80px;
+    border-radius: 16px;
+}
+
+.web_one,.web_two, .web_three{
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.web_text h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321;
+    line-height: 35px;
+    padding: 0 0 16px 0;
+}
+
+.web_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+}
+.web_text button{
+    padding: 12px 18px;
+    border-radius: 4px;
+    background-color: #dfdbdb;
+    margin-top: 30px;
+}
+
+.web_text a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1321;
+}
+
+
+.web_img img{
+    width: 274px;
+    height: 240px;
+
+}
+
+/* My Inspiration */
+.inspiration{
+    margin-top: 80px;
+}
+
+.inspiration_img{
+    padding: 32px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 16px;
+}
+
+.inspiration_img img{
+    border-radius: 16px;
+}
