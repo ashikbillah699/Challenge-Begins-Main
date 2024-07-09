@@ -226,3 +226,31 @@ nav button {
 .js{
     background-color: #fff1ee;
 }
+
+/* i need support */
+.support{
+    background-image: url("../images/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 313px;
+    margin-top: 50px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 48px 64px;
+
+    margin-bottom: 400px;
+}
+
+.support h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.support p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 24px 0 16px;
+}
