@@ -238,8 +238,6 @@ nav button {
     border-radius: 16px;
     text-align: center;
     padding: 48px 64px;
-
-    margin-bottom: 400px;
 }
 
 .support h2{
@@ -253,4 +251,24 @@ nav button {
     font-weight: 400;
     color: #fff;
     padding: 24px 0 16px;
+}
+
+/* footer part */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #eeeded; 
+    align-items: center; 
+    margin-top: 50px;
+}
+
+footer ul li{
+    float: left;
+    padding-left: 24px;
+}
+
+footer ul li a{
+    height: 36px;
+    width: 36px;
 }
