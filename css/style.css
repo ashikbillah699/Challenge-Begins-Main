@@ -27,7 +27,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 24px 0;
+    margin: 45px 0;
 }
 
 nav h3 {
@@ -35,24 +35,17 @@ nav h3 {
     font-weight: 800;
 }
 
-/* nav a {
+nav a {
     font-size: 20;
     font-weight: 600;
     padding: 17px 24px;
     color: #0D1321;
-} */
-
-#scrollButton{
-    background-color: #000;
-    font-size: 20;
-    font-weight: 600;
-    padding: 17px 24px;
-    color: #fff;
-} 
+}
 
 nav button {
     border: 1px solid #1e1e1e;
     border-radius: 5px;
+    background-color: #fff;
 }
 
 /* banner style */
@@ -93,11 +86,19 @@ nav button {
 }
 
 
-.banner_content a {
+/* .banner_content a {
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
-}
+} */
+
+#scrollButton{
+    background-color: #000;
+    font-size: 20;
+    font-weight: 600;
+    padding: 17px 24px;
+    color: #fff;
+} 
 
 /* web development part */
 .common_header{
@@ -173,13 +174,13 @@ nav button {
     margin-top: 80px;
 }
 
-.inspiration_img{
+.inspiration_video{
     padding: 32px;
     border: 1px solid rgb(204, 204, 204);
     border-radius: 16px;
 }
 
-.inspiration_img img{
+.inspiration_video img{
     border-radius: 16px;
 }
 
@@ -261,7 +262,7 @@ nav button {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    padding: 24px 0 16px;
+    padding: 24px 0 20px;
 }
 
 /* footer part */
@@ -283,6 +284,3 @@ footer ul li a{
     height: 36px;
     width: 36px;
 }
-
-
-
