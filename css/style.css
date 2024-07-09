@@ -1,0 +1,50 @@
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navbar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+nav h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+nav a {
+    font-size: 20;
+    font-weight: 600;
+    padding: 17px 24px;
+    color: #0D1321;
+}
+
+nav button{
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+
