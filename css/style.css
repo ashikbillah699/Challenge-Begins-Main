@@ -27,7 +27,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 45px 0;
+    margin: 24px 0;
 }
 
 nav h3 {
@@ -35,17 +35,24 @@ nav h3 {
     font-weight: 800;
 }
 
-nav a {
+/* nav a {
     font-size: 20;
     font-weight: 600;
     padding: 17px 24px;
     color: #0D1321;
-}
+} */
+
+#scrollButton{
+    background-color: #000;
+    font-size: 20;
+    font-weight: 600;
+    padding: 17px 24px;
+    color: #fff;
+} 
 
 nav button {
     border: 1px solid #1e1e1e;
     border-radius: 5px;
-    background-color: #fff;
 }
 
 /* banner style */
@@ -228,6 +235,10 @@ nav button {
 }
 
 /* i need support */
+#content {
+    height:300px;
+}
+
 .support{
     background-image: url("../images/handshake.jpg");
     background-position: center;
@@ -272,3 +283,6 @@ footer ul li a{
     height: 36px;
     width: 36px;
 }
+
+
+
